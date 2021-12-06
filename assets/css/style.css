@@ -4,8 +4,12 @@
   padding: 0;
 }
 
+body {
+  background-color: ghostwhite;
+}
+
 nav {
-  background-color: silver;
+  background-color: ghostwhite;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -13,7 +17,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 nav ul {
