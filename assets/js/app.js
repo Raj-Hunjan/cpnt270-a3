@@ -12,7 +12,7 @@ const cake = async () => {
   `
   console.log(data);
 }
-
+/*
 let websiteIndex
 let address
 let cap
@@ -66,7 +66,7 @@ const donut = async () => {
 
   console.log(data);
 }
-
+*/
 cake();
 cupCake();
 donut();
