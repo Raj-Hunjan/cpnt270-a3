@@ -6,7 +6,7 @@ const cake = async () => {
 
   document.querySelector('.cake').innerHTML = `
     <figure>
-      <img src="${cakeFigure.url}" alt="Tony's image">
+      <img src="${cakeFigure.url}" alt="picture of cake">
       <figcaption>${cakeFigure.caption}</figcaption>
     </figure>
   `
