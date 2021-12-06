@@ -19,7 +19,7 @@
 
 6. Go to instagram basic display, click `Basic Display`. Then scroll down to user token generator and click `generate token` then you authorize by clicking allow and then you should hav your token. (Just make sure you click `I Understand` to get the full token). Then just save it in your `.env` file.
 
-7. [This website](https://harrisonkolor.medium.com/using-the-instagram-api-serverless-netlify-to-display-your-own-photos-in-2021-7923014522d0) was helpful for the next step. You'll nedd to get your user ID.
+7. [This website](https://harrisonkolor.medium.com/using-the-instagram-api-serverless-netlify-to-display-your-own-photos-in-2021-7923014522d0) was helpful for the next step. You'll need to get your user ID.
 
     - You'll need this to get your user ID: `https://graph.instagram.com/me?access_token={access_token}`
 8. Now you'll need to test the token and ID: `https://graph.instagram.com/{user-id}/media?fields=id, caption,link,media_url&access_token={access-token}`
