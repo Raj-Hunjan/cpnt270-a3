@@ -1,4 +1,4 @@
-const cake = async () => {
+const cakes = async () => {
   const response = await fetch('/.netlify/functions/cake');
   const data = await response.json();
 
@@ -67,6 +67,6 @@ const donut = async () => {
   console.log(data);
 }
 */
-cake();
+cakes();
 cupCake();
 donut();
