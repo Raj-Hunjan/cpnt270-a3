@@ -1,5 +1,5 @@
 const cakes = async () => {
-  const response = await fetch('/.netlify/functions/cake')
+  const response = await fetch('/.netlify/functions/posts')
   const data = await response.json()
 
   const cakeFigure = data.find((item) => item.caption.startsWith('#cake'))
@@ -14,7 +14,7 @@ const cakes = async () => {
 }
 
 const cupCakes = async () => {
-  const response = await fetch('/.netlify/functions/cake')
+  const response = await fetch('/.netlify/functions/posts')
   const data = await response.json()
 
   const cupFigure = data.find((item) => item.caption.startsWith('#cupcake'))
@@ -29,14 +29,14 @@ const cupCakes = async () => {
 }
 
 const donuts = async () => {
-  const response = await fetch('/.netlify/functions/cake')
+  const response = await fetch('/.netlify/functions/posts')
   const data = await response.json()
 
-  const donutFigure = data.find((item) => item.caption.startsWith('#cake'))
+  const donutFigure = data.find((item) => item.caption.startsWith('#donut'))
 
   document.querySelector('.donut').innerHTML = `
     <figure>
-      <img src="${donutFigure.url}" alt="picture of cake">
+      <img src="${donutFigure.url}" alt="picture of donuts">
       <figcaption>${donutFigure.caption}</figcaption>
     </figure>
   `
