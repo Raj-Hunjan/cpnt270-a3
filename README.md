@@ -44,6 +44,11 @@ There are many accounts on instagram and other social media platforms that promo
 7. Refresh website to see if your picture is posted
 8. Success
 
+## How I secured my API token/key
+- I used dotenv and netlify's environment variables
+- [Dotenv docs](https://www.npmjs.com/package/dotenv)
+- [Netlify docs](https://docs.netlify.com/configure-builds/environment-variables/)
+
 ## Attributions
 - [Cupcakes](https://unsplash.com/photos/S2jw81lfrG0)
 - [Donuts](https://unsplash.com/photos/6SMF42-JTAc)
