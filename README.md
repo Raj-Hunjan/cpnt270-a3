@@ -53,5 +53,4 @@ There are many accounts on instagram and other social media platforms that promo
 - [Cupcakes](https://unsplash.com/photos/S2jw81lfrG0)
 - [Donuts](https://unsplash.com/photos/6SMF42-JTAc)
 - [Cake](https://unsplash.com/photos/kPxsqUGneXQ)
-
-Displaying content that is added to a particular collection.
+- Thank you [Tony](https://github.com/acidtone) for the [code](https://github.com/sait-wbdv/hello-instagram-netlify)

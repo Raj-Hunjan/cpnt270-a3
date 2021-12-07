@@ -1,8 +1,11 @@
+"use strict";
+
+// Calling cake picture and caption
 const cakes = async () => {
-  const response = await fetch('/.netlify/functions/posts')
+  const response = await fetch('/.netlify/functions/posts') // proxy endpoint
   const data = await response.json()
 
-  const cakeFigure = data.find((item) => item.caption.startsWith('#cake'))
+  const cakeFigure = data.find((item) => item.caption.startsWith('#cake')) // Only finds pictures with this caption
 
   document.querySelector('.cake').innerHTML = `
     <figure>
@@ -13,11 +16,12 @@ const cakes = async () => {
   console.log(data)
 }
 
+// Calling cupcake picture and caption
 const cupCakes = async () => {
-  const response = await fetch('/.netlify/functions/posts')
+  const response = await fetch('/.netlify/functions/posts') // proxy endpoint
   const data = await response.json()
 
-  const cupFigure = data.find((item) => item.caption.startsWith('#cupcake'))
+  const cupFigure = data.find((item) => item.caption.startsWith('#cupcake')) // Only finds pictures with this caption
 
   document.querySelector('.cupcake').innerHTML = `
     <figure>
@@ -28,11 +32,12 @@ const cupCakes = async () => {
   console.log(data)
 }
 
+// Calling donut picture and caption
 const donuts = async () => {
-  const response = await fetch('/.netlify/functions/posts')
+  const response = await fetch('/.netlify/functions/posts') // proxy endpoint
   const data = await response.json()
 
-  const donutFigure = data.find((item) => item.caption.startsWith('#donut'))
+  const donutFigure = data.find((item) => item.caption.startsWith('#donut')) // Only finds pictures with this caption
 
   document.querySelector('.donut').innerHTML = `
     <figure>
