@@ -13,11 +13,11 @@
 
 3. The [getting started](https://developers.facebook.com/docs/instagram-basic-display-api/getting-started) and [overview](https://developers.facebook.com/docs/instagram-basic-display-api/overview) pages helped with the next few steps. On the [app page](https://developers.facebook.com/apps/), click `create app` and choose `consumer`. Then you just name your app and click `create app`.
 
-4. Click Instagram Basic Display and then click create new app. Then you scroll down to user token generator, click `add or remove instagram testers` and then click `add instagram testers`. 
+4. Click Instagram [Basic Display](https://developers.facebook.com/apps/204629698494784/instagram-basic-display/basic-display/) and then click create new app. Then you scroll down to user token generator, click `add or remove instagram testers` and then click `add instagram testers`. 
 
 5. Go to instagram account, settings, apps and websites, tester invites and then you accept the invite. So now you should be able to generate a token.
 
-6. Go to instagram basic display, click `Basic Display`. Then scroll down to user token generator and click `generate token` then you authorize by clicking allow and then you should hav your token. (Just make sure you click `I Understand` to get the full token). Then just save it in your `.env` file.
+6. Go to instagram [basic display](https://developers.facebook.com/apps/204629698494784/instagram-basic-display/basic-display/), click `Basic Display`. Then scroll down to user token generator and click `generate token` then you authorize by clicking allow and then you should hav your token. (Just make sure you click `I Understand` to get the full token). Then just save it in your `.env` file.
 
 7. [This website](https://harrisonkolor.medium.com/using-the-instagram-api-serverless-netlify-to-display-your-own-photos-in-2021-7923014522d0) was helpful for the next step. You'll need to get your user ID.
 
@@ -25,6 +25,14 @@
 8. Now you'll need to test the token and ID: `https://graph.instagram.com/{user-id}/media?fields=id, caption,link,media_url&access_token={access-token}`
 
 9. Success!
+
+## How I secured my API token/key
+- I used dotenv and netlify's environment variables
+- [Dotenv docs](https://www.npmjs.com/package/dotenv)
+- [Netlify docs](https://docs.netlify.com/configure-builds/environment-variables/)
+
+## Other information 
+- Instagrams [rate limiting](https://developers.facebook.com/apps/204629698494784/instagram-basic-display/basic-display-rate-limiting/) is kinda annoying. If you request the data too much then the api won't work any more. You'll have to wait an hour for it to work again.
 
 ## Market and Problem definition
 
@@ -43,11 +51,6 @@ There are many accounts on instagram and other social media platforms that promo
 6. Post to Instagram
 7. Refresh website to see if your picture is posted
 8. Success
-
-## How I secured my API token/key
-- I used dotenv and netlify's environment variables
-- [Dotenv docs](https://www.npmjs.com/package/dotenv)
-- [Netlify docs](https://docs.netlify.com/configure-builds/environment-variables/)
 
 ## Attributions
 - [Cake picture](https://unsplash.com/photos/kPxsqUGneXQ) by [David Holifield](https://unsplash.com/@davidholifield)
