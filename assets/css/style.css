@@ -69,8 +69,7 @@ img {
 }
 
 figure {
-  border: #1a1a1a;
-  font-size: 1rem;
+  border: solid;
 }
 
 figcaption {
@@ -79,5 +78,6 @@ figcaption {
   align-items: center;
   background-color: #1a1a1a;
   color: ghostwhite;
+  font-size: 1rem;
   padding: 1rem 0rem;
 }
