@@ -64,8 +64,14 @@ nav a:hover {
   padding-top: 20px;
 }
 
+figure {
+  border: solid;
+}
+
 figcaption {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1a1a1a;
+  color: ghostwhite;
 }

@@ -21,7 +21,7 @@ const cupCakes = async () => {
 
   document.querySelector('.cupcake').innerHTML = `
     <figure>
-      <img src="${cupFigure.url}" alt="picture of a cupcake">
+      <img src="${cupFigure.url}" alt="picture of a cupcake" width="400" height="400">
       <figcaption>${cupFigure.caption}</figcaption>
     </figure>
   `
@@ -36,7 +36,7 @@ const donuts = async () => {
 
   document.querySelector('.donut').innerHTML = `
     <figure>
-      <img src="${donutFigure.url}" alt="picture of donuts">
+      <img src="${donutFigure.url}" alt="picture of donuts" width="400" height="400">
       <figcaption>${donutFigure.caption}</figcaption>
     </figure>
   `
