@@ -11,7 +11,7 @@
 
 2. Then you have to sign up for [facebook](https://www.facebook.com/) and then make a [developer account](https://developers.facebook.com/apps/).
 
-3. The [getting started](https://developers.facebook.com/docs/instagram-basic-display-api/getting-started) page helped with the next few steps. On the [app page](https://developers.facebook.com/apps/), click `create app` and choose `consumer`. Then you just name your app and click `create app`.
+3. The [getting started](https://developers.facebook.com/docs/instagram-basic-display-api/getting-started) and [overview](https://developers.facebook.com/docs/instagram-basic-display-api/overview) pages helped with the next few steps. On the [app page](https://developers.facebook.com/apps/), click `create app` and choose `consumer`. Then you just name your app and click `create app`.
 
 4. Click Instagram Basic Display and then click create new app. Then you scroll down to user token generator, click `add or remove instagram testers` and then click `add instagram testers`. 
 
