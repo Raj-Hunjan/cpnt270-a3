@@ -6,7 +6,7 @@
 - [Repo](https://github.com/Raj-Hunjan/cpnt270-a3)
 - [Live](https://xenodochial-lovelace-9a971b.netlify.app/)
 
-## Instagram API steps
+## Instagram API steps:
 1. So first you create a dummy [instagram](https://www.instagram.com/) account.
 
 2. Then you have to sign up for [facebook](https://www.facebook.com/) and then make a [developer account](https://developers.facebook.com/apps/).
@@ -26,15 +26,15 @@
 
 9. Success!
 
-## How I secured my API token/key
+## How I secured my API token/key:
 - I used dotenv and netlify's environment variables
 - [Dotenv docs](https://www.npmjs.com/package/dotenv)
 - [Netlify docs](https://docs.netlify.com/configure-builds/environment-variables/)
 
-## Other information 
+## Other information:
 - Instagrams [rate limiting](https://developers.facebook.com/apps/204629698494784/instagram-basic-display/basic-display-rate-limiting/) is kinda annoying. If you request the data too much then the api won't work any more. You'll have to wait an hour for it to work again.
 
-## Market and Problem definition
+## Market and Problem definition:
 
 ### User Story:
 
@@ -52,7 +52,7 @@ There are many accounts on instagram and other social media platforms that promo
 7. Refresh website to see if your picture is posted
 8. Success
 
-## Attributions
+## Attributions:
 - [Cake picture](https://unsplash.com/photos/kPxsqUGneXQ) by [David Holifield](https://unsplash.com/@davidholifield)
 - [Cupcakes picrure](https://unsplash.com/photos/S2jw81lfrG0) by [Deva Williamson](https://unsplash.com/@biglaughkitchen)
 - [Donuts picture](https://unsplash.com/photos/6SMF42-JTAc) by [Rod Long](https://unsplash.com/@rodlong)
