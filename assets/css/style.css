@@ -66,6 +66,7 @@ nav a:hover {
 
 figure {
   border: solid;
+  margin-bottom: 50px;
   font-size: 1rem;
 }
 
