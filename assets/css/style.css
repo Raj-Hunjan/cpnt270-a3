@@ -64,6 +64,10 @@ nav a:hover {
   padding-top: 20px;
 }
 
+img {
+  vertical-align: middle;
+}
+
 figure {
   border: solid;
   margin-bottom: 50px;
