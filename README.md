@@ -47,7 +47,10 @@ There are many accounts on instagram and other social media platforms that promo
 2. Log into Instagram account
 3. Create a new Instagram post
 4. Choose a picture
-5. Write a caption
+5. Write a caption with one of these hashtags
+    - #cake
+    - #cupcakes
+    - #donuts
 6. Post to Instagram
 7. Refresh website to see if your picture is posted
 8. Success
