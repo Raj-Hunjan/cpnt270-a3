@@ -47,10 +47,21 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 
-figure {
-  border: solid;
+.cupcake {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.donut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
 }
 
 figcaption {
