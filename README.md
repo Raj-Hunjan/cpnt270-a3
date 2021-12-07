@@ -3,8 +3,8 @@
 ### Author: Raj Hunjan
 
 ## Links:
-- [Repo]()
-- [Live]()
+- [Repo](https://github.com/Raj-Hunjan/cpnt270-a3)
+- [Live](https://xenodochial-lovelace-9a971b.netlify.app/)
 
 ## Instagram API steps
 1. So first you create a dummy [instagram](https://www.instagram.com/) account.
@@ -50,7 +50,8 @@ There are many accounts on instagram and other social media platforms that promo
 - [Netlify docs](https://docs.netlify.com/configure-builds/environment-variables/)
 
 ## Attributions
-- [Cupcakes](https://unsplash.com/photos/S2jw81lfrG0)
-- [Donuts](https://unsplash.com/photos/6SMF42-JTAc)
-- [Cake](https://unsplash.com/photos/kPxsqUGneXQ)
-- Thank you [Tony](https://github.com/acidtone) for the [code](https://github.com/sait-wbdv/hello-instagram-netlify)
+- [Cake picture](https://unsplash.com/photos/kPxsqUGneXQ) by [David Holifield](https://unsplash.com/@davidholifield)
+- [Cupcakes picrure](https://unsplash.com/photos/S2jw81lfrG0) by [Deva Williamson](https://unsplash.com/@biglaughkitchen)
+- [Donuts picture](https://unsplash.com/photos/6SMF42-JTAc) by [Rod Long](https://unsplash.com/@rodlong)
+- [Tony's](https://github.com/acidtone) axios [code](https://github.com/sait-wbdv/hello-instagram-netlify/blob/main/functions/lunch.js)
+- [Tony's](https://github.com/acidtone) netlify [code](https://github.com/acidtone/hello-netlify-functions)
