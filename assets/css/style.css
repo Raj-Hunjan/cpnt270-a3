@@ -66,6 +66,7 @@ nav a:hover {
 
 figure {
   border: solid;
+  font-size: 1rem;
 }
 
 figcaption {
@@ -74,4 +75,5 @@ figcaption {
   align-items: center;
   background-color: #1a1a1a;
   color: ghostwhite;
+  padding: 1rem 0rem;
 }
