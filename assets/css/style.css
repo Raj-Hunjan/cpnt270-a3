@@ -8,6 +8,13 @@ body {
   background-color: ghostwhite;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
 nav {
   background-color: ghostwhite;
   font-family: 'Roboto', sans-serif;
